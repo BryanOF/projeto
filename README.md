@@ -25,21 +25,9 @@ Moradores da comunidade, pessoas interessadas em voluntariado, iniciativas socia
 ## Tecnologias
 HTML5 e CSS3, sem frameworks. A tipografia externa é carregada pelo Google Fonts. As fotografias são carregadas do Unsplash e exigem internet.
 
-## Como executar
-Abra `index.html` no navegador. Para publicar, envie todos os arquivos ao repositório GitHub e ative GitHub Pages nas configurações.
-
 ## Integrantes
 - Bryan Oliveira Faria
 - Otavio Cezar Neves de Souza
-
-## Validação
-Antes de entregar:
-1. Valide `index.html`, `cadastro.html`, `login.html`, `curriculo.html`, `curriculo-bryan.html` e `curriculo-otavio.html` em https://validator.w3.org/
-2. Valide `css/style.css` em https://jigsaw.w3.org/css-validator/
-3. Salve capturas de tela das validações.
-4. Confira os dados e os links dos dois currículos antes de publicar.
-5. Atualize a lista de integrantes e confira os links publicados.
-6. Grave o vídeo de até 3 minutos exigido pela atividade.
 
 ## Observação
 Este é um protótipo estático para a etapa HTML/CSS. O cadastro não salva dados e o login não faz autenticação real, pois a etapa atual não utiliza backend ou JavaScript.
