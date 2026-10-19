@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cadastre-se para participar do projeto Semeando o Futuro.">
+  <title>Cadastro e login | Semeando o Futuro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pagina-acesso">
+  <header class="topo topo-acesso">
+    <a class="marca" href="index.html"><span class="marca-icone">🌱</span><span>Semeando <strong>o Futuro</strong></span></a>
+    <a class="link-secundario" href="index.html">← Voltar para o início</a>
+  </header>
+  <main class="acesso-layout">
+    <section class="acesso-lateral">
+      <span class="etiqueta etiqueta-clara">ODS 2 · Fome Zero</span>
+      <h1>Uma comunidade forte se cultiva <em>em conjunto.</em></h1>
+      <p>Faça parte de uma rede que acredita em alimentação digna, agricultura sustentável e solidariedade.</p>
+      <div class="frase-lateral">“Se você tem uma horta, tem esperança.” <span>🌿</span></div>
+    </section>
+    <section class="formulario-area">
+      <div class="abas" aria-label="Acesso">
+        <a class="aba ativa" href="#cadastro">Criar cadastro</a>
+        <a class="aba" href="login.html">Já tenho conta</a>
+      </div>
+      <div id="cadastro">
+        <span class="etiqueta">Venha com a gente</span>
+        <h2>Faça seu cadastro</h2>
+        <p class="texto-form">Preencha os campos para demonstrar interesse em participar do projeto.</p>
+        <form action="login.html" method="get">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Como podemos chamar você?" autocomplete="name" required>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="voce@exemplo.com" autocomplete="email" required>
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" autocomplete="tel" required>
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" autocomplete="address-level2" required>
+          <label for="interesse">Como gostaria de ajudar?</label>
+          <select id="interesse" name="interesse" required>
+            <option value="">Selecione uma opção</option>
+            <option>Horta comunitária</option>
+            <option>Campanha de alimentos</option>
+            <option>Educação ambiental</option>
+            <option>Divulgação e voluntariado</option>
+          </select>
+          <label for="senha">Crie uma senha</label>
+          <input type="password" id="senha" name="senha" minlength="6" placeholder="Mínimo de 6 caracteres" autocomplete="new-password" required>
+          <button class="botao botao-largo" type="submit">Continuar para o login <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="aviso-form">Projeto acadêmico demonstrativo. Este formulário não armazena nem envia dados para um servidor.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape-acesso"><span>🌱 Semeando o Futuro</span><a href="index.html">Página principal</a></footer>
+</body>
+</html>
